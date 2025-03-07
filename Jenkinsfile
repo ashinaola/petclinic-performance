@@ -23,7 +23,7 @@ pipeline
       steps {
         echo "Getting the Performance Testing Repo"
         git(
-        url:'git@github.com:ochoadevops/petclinic-performance.git',
+        url:'git@github.com:ashinaola/petclinic-performance.git',
         credentialsId: 'performance',
         branch: "main"
         )
